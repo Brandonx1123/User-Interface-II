@@ -72,11 +72,9 @@ body{
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
-    max-width: 100%;
+    /* border: 1px solid black; */
     max-width: 100%;
     
-
 }
 
 h1 , h2{
@@ -135,15 +133,15 @@ margin: 1% 0%;
 
 .bottom-images{
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     margin-right: 0%;
     
     
 }
 
-.bottomtext .images{
-    display: flex;
-
+.images{
+    width: 57%;
 }
 
 .bottomtext{
@@ -151,8 +149,9 @@ margin: 1% 0%;
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
-    width: 40%;
+    width: 30%;
     text-align: center;
+    margin-right: 5%;
 }
 
 /* footer styles */
