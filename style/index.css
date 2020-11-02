@@ -72,7 +72,7 @@ body{
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     max-width: 100%;
     
 }
@@ -122,10 +122,11 @@ header nav{
 
 .hero-image{
 background-image:url(https://picsum.photos/id/237/2000/500);
+background-size: cover;
 background-size: 100%;
-height: 25vh;
+height: 30vh;
 background-repeat: no-repeat;
-padding: 2%;
+padding: 1%;
 margin: 1% 0%;
 }
 
@@ -134,24 +135,26 @@ margin: 1% 0%;
 .bottom-images{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:flex-start;
     margin-right: 0%;
+    height: 10%;
+    width: 100%;
     
     
 }
 
 .images{
-    width: 57%;
+    width: 60%;
 }
 
 .bottomtext{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-size: 1.3rem;
     width: 30%;
-    text-align: center;
-    margin-right: 5%;
+   text-align: center;
+
 }
 
 /* footer styles */
@@ -174,3 +177,130 @@ footer nav a{
     font-size: 1.6rem;
 }
     
+
+/* Media style  */
+
+@media :(max-width:800px){
+
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Trispace', sans-serif;
+    line-height: 1.6;
+
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+    max-width: 100%;
+    
+}
+
+h1 , h2{
+    font-family: 'Staatliches', cursive ;
+    font-size:45px;
+    text-align: center;
+    color: crimson;
+}
+    
+/* Header style section */
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: 2% auto;
+    width: 80%;
+    padding: 1%;
+
+}
+
+h1{
+    width: 30%;
+}
+
+header a{
+    color: darkgrey;
+    width: 35%;
+    background: black;
+    text-decoration: none;
+    border-radius: 15%;
+    margin: 0% auto;
+    padding: 1;
+}
+
+header nav{
+    display: flex;
+    margin: 1% 0;
+    text-align: center;
+}
+
+/* Hero image style */
+
+.hero-image{
+background-image:url(https://picsum.photos/id/237/2000/500);
+background-size: cover;
+background-size: 100%;
+height: 30vh;
+background-repeat: no-repeat;
+padding: 1%;
+margin: 1% 0%;
+}
+
+/* bottom images styling */
+
+.bottom-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-right: 0%;
+    height: 10%;
+    width: 100%;
+    
+    
+}
+
+.images{
+    width: 60%;
+}
+
+.bottomtext{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    width: 30%;
+   text-align: center;
+
+}
+
+/* footer styles */
+
+footer nav{
+display: flex;
+justify-content:center;
+
+background: crimson;
+
+}
+
+footer nav a{
+    background: black;
+    border-radius: 15%;
+    color:lightgrey;
+    margin: 2% auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+}
