@@ -141,7 +141,7 @@ background-position: center;
     align-items: center;
     justify-content:space-evenly;
     margin-right: 1% auto;
-    height: auto;
+    
     width: 100%;
     
     
@@ -150,13 +150,15 @@ background-position: center;
 .bottom-images img{
     width: 35%;
     margin: 2% auto;
+    padding: 2%;
 }
 
 .images{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
+    width: 40%;
+    
 
 }
 
@@ -278,7 +280,7 @@ footer nav a{
     }
     
     .images{
-        width: 60%;
+        width: 100%;
     }
     
     .bottomtext{
@@ -397,14 +399,14 @@ footer nav a{
     
     .bottom-images img{
         width: 35%;
-        margin: 2% auto;
+      
     }
     
     .images{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        width: 100%;
+        width: 20%;
     
     }
     
@@ -526,7 +528,7 @@ footer nav a{
         }
         
         .images{
-            width: 60%;
+            width: 100%;
         }
         
         .bottomtext{
